@@ -4,7 +4,7 @@ class Pregunta:
         self.ayuda = ayuda
         self.requerida = requerida
         self.alternativas = []
-        self.encuesta = None  # Inicialmente no está asociada a ninguna encuesta
+        self.encuesta = None  
 
     def mostrar_enunciado_ayuda_alternativas(self):
         alternativas_info = [a.mostrar_contenido_ayuda() for a in self.alternativas]
